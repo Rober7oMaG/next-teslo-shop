@@ -13,7 +13,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data>)
             return getProducts(req, res)
 
         default:
-            return res.status(400).json({ message: 'Unexistant endpoint' });
+            return res.status(400).json({ message: 'Unexistant endpoint.' });
     }
 }
 

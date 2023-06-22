@@ -63,7 +63,7 @@ const AddressPage = () => {
             <form onSubmit={handleSubmit(onAddressSubmit)}>
                 <Typography variant='h1' component='h1'>Address</Typography>
 
-                <Grid container  spacing={2} sx={{mt: 2}}>
+                <Grid container spacing={2} sx={{mt: 2}}>
                     <Grid item xs={12} sm={6}>
                         <TextField
                             label='First Name'

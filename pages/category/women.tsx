@@ -4,10 +4,9 @@ import { ShopLayout } from '../../components/layouts';
 import { FullScreenLoading } from '../../components/ui';
 import { ProductList } from '../../components/products';
 import { useProducts } from '../../hooks';
-// import { initialData } from '../database/products';
 
 
-const KidsPage: NextPage = () => {
+const WomenPage: NextPage = () => {
   const {products, isLoading} = useProducts('/products?gender=women')
 
   return (
@@ -23,4 +22,4 @@ const KidsPage: NextPage = () => {
   );
 };
 
-export default KidsPage;
+export default WomenPage;
